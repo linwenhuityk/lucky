@@ -19,6 +19,11 @@ View your app in AI Studio: https://ai.studio/apps/drive/14Hku_dmY2-p6PnmQTBJqrn
 3. Run the app:
    `npm run dev`
 
+   > **Note for Windows Users:** If you see an error about "execution policies" (PSSecurityException), run this command in PowerShell to allow script execution:
+   > ```powershell
+   > Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+   > ```
+
 ## Deployment
 
 This project is configured with a GitHub Action for automated building and testing.
