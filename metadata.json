@@ -1,0 +1,5 @@
+{
+  "name": "lucky",
+  "description": "A comprehensive HR tool for managing employee lists, conducting animated prize draws, and automatically generating team groupings with AI-powered creative naming.",
+  "requestFramePermissions": []
+}
